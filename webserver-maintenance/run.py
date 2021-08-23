@@ -6,8 +6,8 @@ import glob
 import re
 
 # Configs
-descpath = "/home/student-03-60bbf41681c1/supplier-data/descriptions/*.txt"
-url = "http://34.69.38.227/fruits/"
+descpath = os.path.expanduser('~') + "/supplier-data/descriptions/*.txt"
+url = "http://34.123.193.96/fruits/"
 descformat = ["name", "weight", "description"]
 
 # Process each fruit and then upload to API on webserver
