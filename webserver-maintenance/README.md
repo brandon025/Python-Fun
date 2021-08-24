@@ -12,6 +12,8 @@ You work for an online fruit store and need to develop a system that will update
 # Output 
 ## Command line run
  ![image](https://user-images.githubusercontent.com/14297774/130676775-0686a07c-b5cc-4bbd-b409-cc6dea069199.png)
+## Post data to web server
+![image](https://user-images.githubusercontent.com/14297774/130677058-dd9b40f4-8d03-477b-b888-27cb48d8ba88.png)
 ## PDF file
  ![image](https://user-images.githubusercontent.com/14297774/130676780-ead253de-77dc-43c9-8b13-b8fe07870c83.png)
 ## Monitoring web server email alerts
