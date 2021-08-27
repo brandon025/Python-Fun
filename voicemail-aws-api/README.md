@@ -64,7 +64,7 @@ In the future, we could create continuous integration to automate testing to ens
 - Vulnerability scans
   - Github integrates "Dependabot" to scan for vulnerabilities on my dependencies.
   
-In the future, we can integrate vulnerability testing and scans on the servers that we host this on.
+In the future, we can integrate vulnerability testing and scans on the servers that we host this on. We can also encrypt .env plain text data for extra security. 
 
 # Privacy Considerations
 This script should consider locking down the AWS API permissions more granularly.
