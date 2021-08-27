@@ -71,6 +71,6 @@ This script should consider locking down the AWS API permissions more granularly
 
 # Outcome
 * Learned about S3 buckets
-* Learned about built in API modules for Ring Central and AWS
+* Learned about built in API modules for RingCentral and AWS
 * Learned how to store private information and data securely
 * Learned about .gitignore
