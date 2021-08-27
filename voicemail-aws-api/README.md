@@ -68,3 +68,9 @@ In the future, we can integrate vulnerability testing and scans on the servers t
 
 # Privacy Considerations
 This script should consider locking down the AWS API permissions more granularly.
+
+# Outcome
+* Learned about S3 buckets
+* Learned about built in API modules for Ring Central and AWS
+* Learned how to store private information and data securely
+* Learned about .gitignore
