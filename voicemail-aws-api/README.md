@@ -47,7 +47,7 @@ The following demonstrates how a user will setup and use this script:
 * S3 buckets and objects
 
 # Alternative Designs
-I was going to tempoarily store voicemails in /tmp/ folder. However, this folder is easily accessible by any users and is not secured. I decided to not parse the AWS bucket for a list of files to determine what voicemails weren't uploaded to it yet. This method can be costly on the API as the bucket grows. 
+I was going to tempoarily store voicemails in /tmp/ folder. However, this folder is easily accessible by any users and is not secured. I decided to not parse the AWS bucket for a list of objects (files) to determine what voicemails weren't uploaded to the bucket yet. This method can be costly on the API calls as the bucket grows. 
   
 # Testing plan
 Unit testing was done on a lab environment. Any new updates would first be tested in lab before pushing onto production. 
