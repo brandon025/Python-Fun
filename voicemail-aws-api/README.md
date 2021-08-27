@@ -63,7 +63,7 @@ In the future, we could create continuous integration to automate testing to ens
   - Downloaded voicemails are stored inside a temp directory using tempfile module. The directory and all of its files are deleted after the code is finished executing
   - Tempfile module also scrambles the folder names
 - Vulnerability scans
-  - Github integrates "Dependabot" to scan for vulnerabilities on my dependencies.
+  - Github integrates "Dependabot" to scan for vulnerabilities on the dependencies.
   
 In the future, we can integrate vulnerability testing and scans on the servers that we host this on. We can also encrypt .env plain text data for extra security. 
 
