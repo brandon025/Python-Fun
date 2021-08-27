@@ -68,7 +68,7 @@ In the future, we could create continuous integration to automate testing to ens
 In the future, we can integrate vulnerability testing and scans on the servers that we host this on. We can also encrypt .env plain text data for extra security. 
 
 # Privacy Considerations
-On AWS, I should consider locking down the AWS API permissions more granularly.
+On AWS, I should consider locking down the AWS API permissions more granularly to avoid breaches to personal data. No personal information or other data is stored.
 
 # Outcome
 * Learned about Amazon S3
