@@ -58,11 +58,11 @@ In the future, we could create continuous integration to automate testing to ens
 - API secrets, user information, and passwords are securely stored in the running environment
   - Used dotenv module to load config file into the environment
 - Dependencies
-  - Used the latest modules
+  - Used the latest up to date modules
 - File handling
   - Downloaded voicemails are stored inside a temp directory using tempfile module. The directory and all of its files are deleted after the code is finished executing
--Vulnerability scans
-- Github integrates "Dependabot" to scan for vulnerabilities in my dependencies.
+- Vulnerability scans
+  - Github integrates "Dependabot" to scan for vulnerabilities on my dependencies.
   
 In the future, we can integrate vulnerability testing and scans on the servers that we host this on.
 
