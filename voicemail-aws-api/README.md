@@ -2,7 +2,7 @@
 Automate the process of uploading new voicemails from RingCentral into Amazon S3 Bucket through AWS API.
 
 # Background
-Ringcentral has a retention policy on voicemails and will be deleted after X amount of days. As per our legal department, its a requirement to preserve voicemails for at least 5 years. These voicemails must be handled securely while transferring. 
+Ringcentral has a retention policy on voicemails and will be deleted after X amount of days. As per our legal department, its a requirement to preserve voicemails for at least 5 years. These voicemails must be handled securely throughout the whole process. 
 
 # Overview
 The script will utilize a text file to determine when the voicemail was created and then uploaded. Only new voicemails will be uploaded to reduce API usage. The dotenv module will store all secrets including usernames, passwords, API secrets, etc. Also, the tempfile module is used to securely store the voicemail data in a temporary directory which is then cleaned out at the end of the script execution. 
