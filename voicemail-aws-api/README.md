@@ -12,7 +12,7 @@ For the purpose of this project, we will be opening the S3 buckets and objects t
 # Detailed Design
 ![voicemail-aws (2)](https://user-images.githubusercontent.com/14297774/131064772-48db2be0-df2e-45e2-953d-ac0a02c2570a.png)
 ## Use Case
-The following demonstrates how a user will setup and use this script
+The following demonstrates how a user will setup and use this script:
 - User installs dependencies
   - boto3
   - python-dotenv
