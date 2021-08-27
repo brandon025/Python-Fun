@@ -6,7 +6,7 @@ import os
 # Configurations
 load_dotenv() # Load .env file
 
-RECIPIENT = '4086766571'
+RECIPIENT = '<PHONE #>'
 
 RINGCENTRAL_CLIENTID = os.getenv("CLIENT_ID")
 RINGCENTRAL_CLIENTSECRET = os.getenv("CLIENT_SECRET")
