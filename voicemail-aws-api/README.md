@@ -70,7 +70,7 @@ In the future, we can integrate vulnerability testing and scans on the servers t
 This script should consider locking down the AWS API permissions more granularly.
 
 # Outcome
-* Learned about S3 buckets
+* Learned about Amazon S3
 * Learned about built in API modules for RingCentral and AWS
 * Learned how to store private information and data securely
 * Learned about .gitignore
