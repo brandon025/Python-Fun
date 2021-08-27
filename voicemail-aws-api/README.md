@@ -18,7 +18,7 @@ The following demonstrates how a user will setup and use this script:
   - python-dotenv
   - ringcentral
 - User grants run permissions to the scripts (IE: chmod +x auto_upload_vm.py)
-- User creates a ".env" file with the following configurations (Add details in quotes ""):
+- User creates a ".env" file where the script will be located with the following configurations (Add details in quotes ""):
 
 >RING_CLIENT_ID = "<RingCentral Client ID>"
 >
